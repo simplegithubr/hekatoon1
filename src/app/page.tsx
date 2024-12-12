@@ -6,8 +6,12 @@ import ShopixOffer from "@/components/ShopixOffer"
 import TreandingProject from "@/components/TreandingProject"
 import TreandingProject2 from "@/components/TreandingProject2"
 import DiscountItem from "@/components/DiscountItem"
+import Newslater from '@/components/Newslater'
 
 import React from 'react'
+import Topcategaries from "@/components/Topcategaries"
+import LatestBlog from "@/components/LatestBlog"
+import Sectionimg from "@/components/Sectionimg"
 
 function page() {
   return (
@@ -19,6 +23,10 @@ function page() {
       <TreandingProject/>
       <TreandingProject2/>
       <DiscountItem/>
+      <Topcategaries/>
+      <Newslater/>
+      <Sectionimg/>
+      <LatestBlog/>
       
     </div>
   )

@@ -4,13 +4,13 @@ import Image from 'next/image'
 import Link from 'next/link'
  function TreandingProject() {
   return (
-    <div className='w-[1350px] h-[550px] bg-[#F1F0FF]  '>
-        <div  className='w-[1050px] h-[550px] flex items-center justify-center  mx-auto gap-[55px] p-9 ' >
+    <div className='md:w-[1350px] w-full md:h-[550px] h-full bg-[#F1F0FF]  '>
+        <div  className='md:w-[1050px] w-full h-full md:h-[550px] flex flex-col md:flex-row items-center justify-center  mx-auto gap-[55px] p-9 ' >
             {/**img */}
-            <div className='w-[300px] h-[350px] bg-[#F5E1FC] rounded-full '>
+            <div className='md:w-[300px] w-full h-full md:h-[350px] bg-[#F5E1FC] rounded-full '>
              <Image src="/sofaimg.png" alt='img' width={609} height={650} ></Image>
             </div>
-            <div className='mt-7 w-[500px]' >
+            <div className='mt-7 md:w-[500px] w-full' >
 
             <h2 className=' text-3xl mt-3 text-[#1A0B5B]'>Unique Features Of leatest &
             Trending Poducts</h2>
@@ -19,12 +19,12 @@ import Link from 'next/link'
             blocks and machine nails</p>
             <p className='text-sm mt-3 text-[#ACABC3]'>Arms, backs and seats are structurally reinforced</p>
             
-            <div className='flex '>
+            <div className='flex flex-col md:flex-row'>
                 <Link className=' bg-pink-500  text-white  p-2 px-4 mt-4 ml-3 mr-4 ' href="/" >Add To Cart</Link>
                 
                 
-                <p className='mt-7 ml-5 text-[#1A0B5B]'>B&B Italian Sofa </p> 
-                <p className='mt-7 ml-2 text-[#1A0B5B]'>$32.00</p>
+                <p className='md:mt-7 mt-2 ml-5 text-[#1A0B5B]'>B&B Italian Sofa </p> 
+                <p className='md:mt-7  ml-2 text-[#1A0B5B]'>$32.00</p>
                 
                 </div>
                 </div>

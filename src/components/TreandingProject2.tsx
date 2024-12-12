@@ -4,13 +4,13 @@ import Image from 'next/image'
 
  function TreandingProject2() {
   return (
-    <div className='w-[992px] h-[350px] mx-auto text-center mt-9 '>
-    <div className='w-[600px] h-42px] mx-auto  '>
+    <div className='md:w-[992px] w-full h-full md:h-[350px] mx-auto text-center mt-9 '>
+    <div className='md:w-[600px] w-full f-full md:h-42px] mx-auto  '>
         <h1 className='text-3xl font-bold  mb-8 text-[#1A0B5B] ' >Trending Products</h1>
     
     </div>
-    <div className="w-[1000px] grid grid-cols-4 gap-6">
-  {/* Product 1 */}
+    <div className="md:w-[1000px] md:grid md:grid-cols-4 flex-col gap-6">
+  {/**product 1 */}
   <div className="flex flex-col items-center">
     <div className="bg-gray-300 w-[200px] h-[200px] p-6 flex justify-center items-center">
       <Image src="/cheress1 (1).png" alt="Product Image" width={150} height={150}  />
@@ -27,7 +27,7 @@ import Image from 'next/image'
   {/* Product 2 */}
   <div className="flex flex-col items-center">
     <div className="bg-gray-300 w-[200px] h-[200px] p-6 flex justify-center items-center">
-      <Image src="/cheress1 (2).png" alt="Product Image" width={150} height={150}  />
+      <Image src="/cheress1 (4).png" alt="Product Image" width={150} height={150}  />
     </div>
     <div className="mt-3 text-center">
       <p>Cantilever chair</p>
@@ -41,7 +41,7 @@ import Image from 'next/image'
   {/* Product 3 */}
   <div className="flex flex-col items-center">
     <div className="bg-gray-300 w-[200px]   h-[200px] p-6 flex justify-center items-center">
-      <Image src="/cheress1 (3).png" alt="Product Image" width={150} height={150}  />
+      <Image src="/cheress1 (2).png" alt="Product Image" width={150} height={150}  />
     </div>
     <div className="mt-3 text-center">
       <p>Cantilever chair</p>
@@ -54,7 +54,7 @@ import Image from 'next/image'
   {/* Product 4 */}
   <div className="flex flex-col items-center">
     <div className="bg-gray-300 w-[200px] h-[200px] p-6 flex justify-center items-center">
-      <Image src="/cheress1 (4).png"   alt="Product Image" width={150} height={150}  />
+      <Image src="/cheress1 (3).png"   alt="Product Image" width={150} height={150}  />
     </div>
     <div className="mt-3 text-center">
       <p>Cantilever chair</p>
