@@ -43,7 +43,7 @@ function Header () {
           <CiHeart size={22}/>
           </div>
          
-          <a href="" className='cursor-pointer'> <MdOutlineShoppingCart size={22} /></a>
+          <a href="shopingcard" className='cursor-pointer'> <MdOutlineShoppingCart size={22} /></a>
          
         </div>
       </div>

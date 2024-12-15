@@ -28,7 +28,7 @@ const Header = () => {
           <a href="page404" onClick={closeemenu}>Pages</a>
           <a href="product" onClick={closeemenu}>Products</a>
           <a href="blogs" onClick={closeemenu}>Blog</a>
-          <a href="#" onClick={closeemenu}>Shop</a>
+          <a href="shop" onClick={closeemenu}>Shop</a>
           <a href="contact" onClick={closeemenu}>Contact</a>
         </nav>
 
@@ -55,7 +55,7 @@ const Header = () => {
           <a href="page404" onClick={closeemenu}>Pages</a>
           <a href="product" onClick={closeemenu}>Products</a>
           <a href="blogs" onClick={closeemenu}>Blog</a>
-          <a href="#" onClick={closeemenu}>Shop</a>
+          <a href="shop" onClick={closeemenu}>Shop</a>
           <a href="contact" onClick={closeemenu}>Contact</a>
           </nav>
           <div className="flex flex-row justify-between  bg-white border rounded-md  text-sm focus:outline-none   ">

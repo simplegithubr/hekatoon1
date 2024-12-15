@@ -2,246 +2,65 @@
 import Sectionimg from '@/components/Sectionimg'
 import React from 'react'
 import Image from 'next/image'
-import { GoStarFill } from "react-icons/go";
-import { FiShoppingCart } from "react-icons/fi";
-import { CiHeart } from "react-icons/ci";
-import { LuSearchX } from "react-icons/lu";
+
 
 export default function page() {
   return (
-    <div className='md:w-[1200px] w-full md:h-[2300px] h-full mx-auto p-8 '>
+    <div className='md:w-[1200px] w-full md:h-[2200px] h-full mx-auto p-8 '>
         <div className='bg-[#F6F5FF] w-full'>
         <div className='md:w-[300px] w-full  p-9  '>
-            <h1 className='text-3xl font-bold'>Shop List</h1>
+            <h1 className='text-3xl font-bold'>Blog Page</h1>
             <div className='flex space-x-3 mt-2'>
                 
                 <p className='text-sm'>Home </p>
                 <p className='text-sm'>Pages</p>
-                <p className='text-sm text-pink-600'>Shop List</p>
+                <p className='text-sm text-pink-600'>Blog Page</p>
             </div>
         </div>
         </div>
-        <div className='  mt-8 p-16 '>
-            <div className='md:flex-row flex flex-col justify-between items-center'>
-            <div >
-                <h1 className='text-base font-semibold text-[#151875]'>Ecommerce Acceories & Fashion item </h1>
-                <p className='text-xs text-[#8A8FB9] mt-2'>About 9,620 results (0.62 seconds)</p>
+       <div className='md:w-[800px] w-full md:h-[1700px] h-full space-y-7 mx-auto p-9 mt-9'>
+        <div>
+            <Image src="/blogss (1).png" alt='' width={700} height={650}></Image>
+            <div className='flex mt-2 space-x-3 p-3 '>
+                <p className='text-sm text-[#151875] bg-pink-200'>Surf Auxion</p>
+                <p  className='text-sm text-[#151875] bg-orange-200'>Aug 09 2020</p>
             </div>
-         <div>
-            <label htmlFor="perpage" className=' text-[#3F509E]'>PerPage:</label>
-            <input type="text" size={2} className='border border-gray-400  mr-3' />
-            <label htmlFor="perpage" className=' text-[#3F509E]'>Sort By:</label>
-            <input type="text" placeholder='Best Match' size={8} className='border border-gray-400 px-1 mr-3'/> 
-            <label htmlFor="perpage" className=' text-[#3F509E]'>View:</label>
-            <input type="text" size={10} className='border border-gray-400'/>
-            </div>
-           
-            </div>
-
-
-
+            <h2 className='text-2xl text-[#151875] font-semibold p-2'>Mauris at orci non vulputate diam tincidunt nec.</h2>
+            <p className='text-xs text-[#8A8F8B]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis
+                 quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, 
+                porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.</p>
+                <p className='mt-2 text-[#151875] font-semibold '>Read More </p>
         </div>
 
-        <div className='max-w-[700px]  md:h-[1800px] h-full  space-y-9'>
-            {/**1 */}
-            <div className='flex items-center ml-9 '>
-
-                <Image src="/blgs1.png" alt='' width={350} height={300}></Image>
-                <div className=' space-y-5 ml-9'>
-                <h3 className='text-[#111C85] text-xl font-semibold'>Accumsan tincidunt</h3>
-                <div className='flex space-x-8'>
-                    <p className='text-xs text-[#111C85] '>$26.00</p>
-                    <p className='text-xs text-[#FF2AAA]'>$52.00</p>
-                    <div className='flex  '>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='gray' className='mt-1 '/>
-                                    </div>
-                   
-                </div>
-                <p className='text-xs text-[#9295AA]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing 
-                    in phasellus non in justo.</p>
-                    <div className='flex space-x-8'>
-                    <FiShoppingCart />
-                    <CiHeart />
-                    <LuSearchX />
-                    </div>
-                    </div>
+        <div>
+            <Image src="/blogss (2).png" alt='' width={700} height={650}></Image>
+            <div className='flex mt-2 space-x-3 p-3 '>
+                <p className='text-sm text-[#151875] bg-pink-200'>Surf Auxion</p>
+                <p  className='text-sm text-[#151875] bg-orange-200'>Aug 09 2020</p>
             </div>
-                {/**2 */}
-            <div className='flex items-center ml-9 '>
-
-                <Image src="/blgs.png" alt='' width={350} height={300}></Image>
-                <div className=' space-y-5 ml-9'>
-                <h3 className='text-[#111C85] text-xl font-semibold'>In nulla</h3>
-                <div className='flex space-x-8'>
-                    <p className='text-xs text-[#111C85] '>$26.00</p>
-                    <p className='text-xs text-[#FF2AAA]'>$52.00</p>
-                    <div className='flex  '>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='gray' className='mt-1 '/>
-                                    </div>
-                   
-                </div>
-                <p className='text-xs text-[#9295AA]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing 
-                    in phasellus non in justo.</p>
-                    <div className='flex space-x-8'>
-                    <FiShoppingCart />
-                    <CiHeart />
-                    <LuSearchX />
-                    </div>
-                    </div>
-            </div>
-            {/**3 */}
-
-            <div className='flex items-center ml-9 '>
-
-                <Image src="/blgs3.png" alt='' width={350} height={300}></Image>
-                <div className=' space-y-5 ml-9'>
-                <h3 className='text-[#111C85] text-xl font-semibold'>Vel sem</h3>
-                <div className='flex space-x-8'>
-                    <p className='text-xs text-[#111C85] '>$26.00</p>
-                    <p className='text-xs text-[#FF2AAA]'>$52.00</p>
-                    <div className='flex  '>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='gray' className='mt-1 '/>
-                                    </div>
-                   
-                </div>
-                <p className='text-xs text-[#9295AA]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing 
-                    in phasellus non in justo.</p>
-                    <div className='flex space-x-8'>
-                    <FiShoppingCart />
-                    <CiHeart />
-                    <LuSearchX />
-                    </div>
-                    </div>
-            </div>
-        {/**4 */}
-
-
-            <div className='flex items-center ml-9 '>
-
-                <Image src="/blgs5.png" alt='' width={350} height={300}></Image>
-                <div className=' space-y-5 ml-9'>
-                <h3 className='text-[#111C85] text-xl font-semibold'>Porttitor cum</h3>
-                <div className='flex space-x-8'>
-                    <p className='text-xs text-[#111C85] '>$26.00</p>
-                    <p className='text-xs text-[#FF2AAA]'>$52.00</p>
-                    <div className='flex  '>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='gray' className='mt-1 '/>
-                                    </div>
-                   
-                </div>
-                <p className='text-xs text-[#9295AA]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing 
-                    in phasellus non in justo.</p>
-                    <div className='flex space-x-8'>
-                    <FiShoppingCart />
-                    <CiHeart />
-                    <LuSearchX />
-                    </div>
-                    </div>
-            </div>
-            {/**5 */}
-
-            <div className='flex items-center ml-9 '>
-
-                <Image src="/blgs4.png" alt='' width={350} height={300}></Image>
-                <div className=' space-y-5 ml-9'>
-                <h3 className='text-[#111C85] text-xl font-semibold'>Nunc in</h3>
-                <div className='flex space-x-8'>
-                    <p className='text-xs text-[#111C85] '>$26.00</p>
-                    <p className='text-xs text-[#FF2AAA]'>$52.00</p>
-                    <div className='flex  '>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='gray' className='mt-1 '/>
-                                    </div>
-                   
-                </div>
-                <p className='text-xs text-[#9295AA]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing 
-                    in phasellus non in justo.</p>
-                    <div className='flex space-x-8'>
-                    <FiShoppingCart />
-                    <CiHeart />
-                    <LuSearchX />
-                    </div>
-                    </div>
-            </div>
-          {/**6 */}
-            <div className='flex items-center ml-9 '>
-
-                <Image src="/blgs6.png" alt='' width={350} height={300}></Image>
-                <div className=' space-y-5 ml-9'>
-                <h3 className='text-[#111C85] text-xl font-semibold'>Vitae facilisis</h3>
-                <div className='flex space-x-8'>
-                    <p className='text-xs text-[#111C85] '>$26.00</p>
-                    <p className='text-xs text-[#FF2AAA]'>$52.00</p>
-                    <div className='flex  '>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='gray' className='mt-1 '/>
-                                    </div>
-                   
-                </div>
-                <p className='text-xs text-[#9295AA]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing 
-                    in phasellus non in justo.</p>
-                    <div className='flex space-x-8'>
-                    <FiShoppingCart />
-                    <CiHeart />
-                    <LuSearchX />
-                    </div>
-                    </div>
-            </div>
-
-             {/**7 */}
-            <div className='flex items-center ml-9 '>
-
-                <Image src="/blgs7.png" alt='' width={350} height={300}></Image>
-                <div className=' space-y-5 ml-9'>
-                <h3 className='text-[#111C85] text-xl font-semibold'>Curabitur lectus</h3>
-                <div className='flex space-x-8'>
-                    <p className='text-xs text-[#111C85] '>$26.00</p>
-                    <p className='text-xs text-[#FF2AAA]'>$52.00</p>
-                    <div className='flex  '>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='yellow' className='mt-1 '/>
-                                    <GoStarFill size={9} fill='gray' className='mt-1 '/>
-                                    </div>
-                   
-                </div>
-                <p className='text-xs text-[#9295AA]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing 
-                    in phasellus non in justo.</p>
-                    <div className='flex space-x-8'>
-                    <FiShoppingCart />
-                    <CiHeart />
-                    <LuSearchX />
-                    </div>
-                    </div>
-            </div>
-
-
-
-
+            <h2 className='text-2xl text-[#151875] font-semibold p-2'>Aenean vitae in aliquam ultrices lectus. Etiam.</h2>
+            <p className='text-xs text-[#8A8F8B]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis
+                 quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, 
+                porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.</p>
+                <p className='mt-2 text-[#151875] font-semibold '>Read More </p>
         </div>
+        <div>
+            <Image src="/blogss (3).png" alt='' width={700} height={650}></Image>
+            <div className='flex mt-2 space-x-3 p-3 '>
+                <p className='text-sm text-[#151875] bg-pink-200'>Surf Auxion</p>
+                <p  className='text-sm text-[#151875] bg-orange-200'>Aug 09 2020</p>
+            </div>
+            <h2 className='text-2xl text-[#151875] font-semibold p-2'>Sit nam congue feugiat nisl, mauris amet nisi. </h2>
+            <p className='text-xs text-[#8A8F8B]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis
+                 quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, 
+                porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.</p>
+                <p className='mt-2 text-[#151875] font-semibold '>Read More </p>
+        </div>
+
+
+
+
+       </div>
        
         <Sectionimg/>
       
